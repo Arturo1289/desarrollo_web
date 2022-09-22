@@ -6,73 +6,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h2 {
+            color: goldenrod;
+        }
+
+        li {
+            list-style: decimal;
+        }
+    </style>
 </head>
 
 <body>
-<h1>Etiquetas html</h1>
-<p>Existen otros tipos de etiqutas para crear una página web en <strong>HTML5</strong> que nos permiten encuadrar 
-otros elementos dentro de las páginas web.
-<br>Algunas de las más usadas son:
-</p>
-<ul>
-
-<h2><legend>1.- &lt;a></legend></h2>
-<p>Permite anclar una dirección URL <br> Ejemplo:</p>
-<a href="https:/www.google.com">soy un link</a>
-
-<h3><legend>2.- &lt;abbr></legend></h3>
-<p>Representa una abreviación o acronimo el atributo opcional title puede ampliar o describir la abrebiatura,
-si esta presente el atributo title tiene que contener la descripción completa y nada más. <br> Ejemplo: </p>
-<p>Yo hago html</p>
-
-<h4><legend>3.- &lt;address></legend></h4>
-<p>Define la información de contacto del autor/propietario de un documento u artículo.
-<br>Ejemplo: <br> Escrito por <a href="https://github.com/Alfonso6z">Alfonso6z</a></p>
-
-<h5><legend>4.- &lt;article></legend></h5>
-<p>Un artículo debe tener sentido por sí mismo y debe ser posible distribuirlo independientemente del resto del 
-sitio.<br> Fuentes potenciales para el elemento article:</p>
-Publicación en el foro <br> Entrada en el blog <br> Noticia
-
-<h6><legend>5.- &lt;aside></legend></h6>
-<p>Define algún contenido además del contenido en el que se coloca. El contenido aparte de be estar indirectamente 
-relacionado con el continido circulante.
-<br> <strong>Sugerencia: </strong>aside se coloca a menudo como una barra lateral en un documento.
-<br> <strong>Nota: </strong>Este elemento no se muestra como algo especial en el navegador. Sin embargo, puede usar 
-CSS para diseñar el aside.</p>
-
-<h7><legend>6.- &lt;audio></legend></h7>
-<p>Agrega controles de audio, como reproducción, pausa y volumen. El &lt;source> permite especificar
-archivos de audio alternativos entro los que puede elegirl el navegador.
-<br>Ejemplo:</p>
-<embed src="C:\desarrollo_web\practica1_etiquetas\audio\teclado-mecanografia.mp3" type=".mp3">
-
-<h8><legend>7.- &lt;button></legend></h8>
-<p>Define un botón enel que es puede hacer clic.
-Dentro de un &lt;button> puedes poner texto (y etiquteas como &lt;i>,&lt;b>,&lt;strong>,&lt;img>, etc ). 
-!Eso no esposible con un botón creado con el &lt;input> 
-<br> <strong>Sugerencia: </strong>Especifique siembre el type de un &lt;button>, para indicar a los navegadores qué tipo de botón es.
-<br><strong>Consejo: </strong>Puede diseñar botones facilmente con CSS.
-<br>Ejemplo:</p>
-<button>boton1</button> <button>boton2</button>
-
-<h9><legend>8.- &lt;form></legend></h9>
-<p>Es un contenedor para diferentes tipo de elementos de entrada, como: campos de texto, casillas de
-verificación, botones de opción, botones de envío, etc.</p>
-<p>Introduce texto</p><input type="text" name="" id=""> <br>Boton<br><input type="button" value="presiona">
-<br>Elige si o no<br><input type="checkbox" name="chequea" id=""> 
-<br>Elige lo que gustes<br><input type="radio">1<input type="radio">2<input type="radio">3
-<br>Presiona el boton para enviar<br><input type="submit" value="Enviar">
-
-<h10><legend>9.- &lt;footer></legend></h10>
-<p>Define un pie de página para un documento o sección.
-Normalmente contien:<br> Información de autoría<br> Información de registro<br> Información del contacto
-<br>Mapa del sitio<br> Volver a los enlaces superiores<br> Documentos relacionados
-<p>Ejemplo:</p><footer>Texto de ejemplo</footer>
-
-<h11><legend>10.- &lt;lol></h11>
+    <h1>Etiquetas html</h1>
+    <p>Existen otros tipos de etiqutas para crear una página web en <strong>HTML5</strong> que nos permiten encuadrar
+        otros elementos dentro de las páginas web.
+        <br>Algunas de las más usadas son:
     </p>
-</ul>
+    <ul>
+        <!--primer etiqueta-->
+        <h2>
+            <li>&lt;a&gt;</li>
+        </h2>
+        <p>Permite anclar una dirección URL <br> Ejemplo:</p>
+        <a href="https:/www.google.com">soy un link</a>
+        
+        <h2>
+            <li>&lt;abbr&gt;</li>
+        </h2>
+        <p>Representa una abreviación o acronimo el atributo opcional title puede ampliar o describir la abrebiatura,si
+            esta presente el atributo title tiene que contener la descripción completa y nada más. <br> Ejemplo: </p>
+        <p>yo hago <abbr title="">HTML</abbr> </p>
+        
+        <h2>
+            <li>&lt;address&gt;</li>
+        </h2>
+        <p>Define la información de contacto del autor/propietario de un documento u artículo. </p>
+        <p> <br> Ejemplo:
+        <address> Escrito por <a href="https://github.com/Alfonso6z">Alfonso6z</a> </address>
+        <!--se pueden poner etiquetas en las etiquetas-->
+        </p>
+        
+        <h2>
+            <li>&lt;article&gt;</li>
+        </h2>
+        <p>Un artículo debe tener sentido por sí mismo y debe ser posible distribuirlo independientemente del resto
+            delsitio.
+            <br>Algunas fuentes potenciales para el elemento article son:
+        </p>
+        Publicación en el foro <br> Entrada en el blog <br>Noticia <br>
+        <br> <strong style="font-size: larger;">Nota:</strong> &lt;article&gt; no se muestra como algo especial en el
+        navegador. Sin
+        embargo, puede usar CSS para diseñar el aside.
+        <br><a href="C:\Dev\desarrollo_web\practica1_etiquetas\example\article.html">Ejemplo de article con css</a>
+        
+        <h2>
+            <li>&lt;aside&gt;</li>
+        </h2>
+        <p>Define algún contenido además del contenido en el que se coloca. El contenido aparte de be estar
+            indirectamente relacionado con el continido circulante.
+            <br> <strong>Sugerencia: </strong>aside se coloca a menudo como una barra lateral en un documento.
+            <br> <strong>Nota: </strong>Este elemento no se muestra como algo especial en el navegador. Sin
+            embargo,puede usar CSS para diseñar el aside.
+            <br><a href="C:\Dev\desarrollo_web\practica1_etiquetas\example\aside.html">Ejemplo de aside con css</a>
+        </p>
+        
+        <h2>
+            <li>&lt;audio&gt;</li>
+        </h2>
+        <p>Agrega controles de audio, como reproducción, pausa y volumen. El &lt;source&gt; permite especificar
+            archivos de audio alternativos entro los que puede elegirl el navegador.
+            <br>Ejemplo:
+        </p>
+
+        <h2>
+            <li>&lt;button&gt;</li>
+        </h2>
+        <p>Define un botón enel que es puede hacer clic.
+            Dentro de un &lt;button> puedes poner texto (y etiquteas como
+            &lt;i&gt;,&lt;b&gt;,&lt;strong&gt;,&lt;img&gt;, etc ).
+            !Eso no esposible con un botón creado con el &lt;input&gt;
+            <br> <strong>Sugerencia: </strong>Especifique siembre el type de un &lt;button&gt;, para indicar a los
+            navegadores qué tipo de botón es.
+            <br><strong>Consejo: </strong>Puede diseñar botones facilmente con CSS.
+            <br>Ejemplo:
+        </p>
+        <button>boton1</button> <button>boton2</button>
+
+        <h2>
+            <li>&lt;form&gt;</li>
+        </h2>
+        <p>Es un contenedor para diferentes tipo de elementos de entrada, como: campos de texto, casillas de
+            verificación, botones de opción, botones de envío, etc.</p>
+        <p>Introduce texto</p><input type="text" name="" id=""> <br>Boton<br><input type="button" value="presiona">
+        <br>Elige si o no<br><input type="checkbox" name="chequea" id="">
+        <br>Elige lo que gustes<br><input type="radio">1<input type="radio">2<input type="radio">3
+        <br>Presiona el boton para enviar<br><input type="submit" value="Enviar">
+
+        <h2>
+            <li>&lt;footer&gt;</li>
+        </h2>
+        <p>Define un pie de página para un documento o sección.
+            Normalmente contien:<br> Información de autoría<br> Información de registro<br> Información del contacto
+            <br>Mapa del sitio<br> Volver a los enlaces superiores<br> Documentos relacionados
+        <p>Ejemplo:</p>
+        <footer>Texto de ejemplo</footer>
+        <!-- hola UwU-->
+    </ul>
 </body>
 
 </html>
