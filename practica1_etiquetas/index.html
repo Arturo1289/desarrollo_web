@@ -30,14 +30,14 @@
         </h2>
         <p>Permite anclar una dirección URL <br> Ejemplo:</p>
         <a href="https:/www.google.com">soy un link</a>
-        
+
         <h2>
             <li>&lt;abbr&gt;</li>
         </h2>
         <p>Representa una abreviación o acronimo el atributo opcional title puede ampliar o describir la abrebiatura,si
             esta presente el atributo title tiene que contener la descripción completa y nada más. <br> Ejemplo: </p>
         <p>yo hago <abbr title="">HTML</abbr> </p>
-        
+
         <h2>
             <li>&lt;address&gt;</li>
         </h2>
@@ -46,7 +46,7 @@
         <address> Escrito por <a href="https://github.com/Alfonso6z">Alfonso6z</a> </address>
         <!--se pueden poner etiquetas en las etiquetas-->
         </p>
-        
+
         <h2>
             <li>&lt;article&gt;</li>
         </h2>
@@ -59,7 +59,7 @@
         navegador. Sin
         embargo, puede usar CSS para diseñar el aside.
         <br><a href="C:\Dev\desarrollo_web\practica1_etiquetas\example\article.html">Ejemplo de article con css</a>
-        
+
         <h2>
             <li>&lt;aside&gt;</li>
         </h2>
@@ -70,15 +70,15 @@
             embargo,puede usar CSS para diseñar el aside.
             <br><a href="C:\Dev\desarrollo_web\practica1_etiquetas\example\aside.html">Ejemplo de aside con css</a>
         </p>
-        
+
         <h2>
             <li>&lt;audio&gt;</li>
         </h2>
         <p>Agrega controles de audio, como reproducción, pausa y volumen. El &lt;source&gt; permite especificar
             archivos de audio alternativos entro los que puede elegirl el navegador.
-            <br>Ejemplo: 
-            <audio controls> 
-                 <source src="audio/teclado-mecanografia.mp3">
+            <br>Ejemplo:
+            <audio controls>
+                <source src="audio/teclado-mecanografia.mp3">
             </audio>
         </p>
 
@@ -94,28 +94,57 @@
             <br><strong>Consejo: </strong>Puede diseñar botones facilmente con CSS.
             <br>Ejemplo:
         </p>
-        <button>boton1</button> <button>boton2</button>
+        <button onclick="console.log('Hola mundo')">boton1</button> <button onclick="alert('Adios')">boton2</button>
 
         <h2>
             <li>&lt;form&gt;</li>
         </h2>
         <p>Es un contenedor para diferentes tipo de elementos de entrada, como: campos de texto, casillas de
             verificación, botones de opción, botones de envío, etc.</p>
-        <p style="color: grey;">&lt;input type="text"&gt;</p>
-            <p>Muestra un campo de entrada de texto de una solo linea</p><input type="text" name="" id=""> 
-        <br>Elige lo que gustes<br><input type="radio">1<input type="radio">2<input type="radio">3
-        <br>Elige si o no<br><input type="checkbox" name="chequea" id="">
-        <br>Presiona el boton para enviar<br><input type="submit" value="Enviar">
+        <form action="#" method="post">
+
+            <p>Muestra un campo de entrada de texto de una solo linea</p><input type="text" name="" id="">
+            <p style="color: grey;">&lt;input type="radio"&gt;</p>
+            <p>Muestra un botón de radio(para selecionar una de muchas opciones)</p><input type="radio"> <input
+                type="radio"> <input type="radio">
+            <p style="color: grey;">&lt;input type="checkbox"&gt;</p>
+            <p>Muestra una casilla de verificación(para selecionar cero o más opciónes)</p>
+            <input type="checkbox" name="chequea" id=""><input type="checkbox" name="chequea" id="">
+            <p style="color: grey;">&lt;input type="submit"&gt;</p>
+            <p>Muestra un botón de envio(para enviar el formulario)</p> <input type="submit" value="Enviar">
+            <p style="color: grey;">&lt;input type="button"&gt;</p>
+            <p>Muestra un botón en el que se puede hacer clic</p> <button> <br> </button>
+        </form>
 
         <h2>
             <li>&lt;footer&gt;</li>
         </h2>
-        <p>Define un pie de página para un documento o sección.
-            Normalmente contienen:</p> Información de autoría<br> Información de registro<br> Información del contacto
-            <br>Mapa del sitio<br> Volver a los enlaces superiores<br> Documentos relacionados
-        <br><a href="C:\Dev\desarrollo_web\practica1_etiquetas\example\footer.html">Ejemplo de footer con css</a>
-        
+        <p>Define un pie de página para un documento o sección.Normalmente contienen:</p>
+        <p> Volver a los enlaces superiores <br>
+            Información del contacto <br>
+            Información de registro <br>
+            Documentos relacionados <br>
+            Información de autoría <br>
+            Mapa del sitio <br>
+        </p>
+        <a href="C:\Dev\desarrollo_web\practica1_etiquetas\example\footer.html">Ejemplo de footer</a>
+
+        <h2>
+            <li>&lt;header&gt;</li>
+        </h2>
+        <p>Representa un contenedor de contenido introductorio o un conjunto de enlaces de navegación.
+            Normalmente contiene:</p>
+        <p style="color: grey;">
+            Uno a más elementos de encabezado (&lt;h1&gt; - &lt;h6&gt;) <br>
+            Logotipo o icono <br>
+            Información de autoría <br>
+        </p>
+            <strong>NOTA: </strong>Puede tener varios &lt;header&gt; en un documento HTML. Sin embargo, no sepuede
+            colocar
+            dentro de un &lt;footer&gt;, &lt;address&gt; u otro &lt;header&gt;
     </ul>
+
+
 </body>
 
 </html>
