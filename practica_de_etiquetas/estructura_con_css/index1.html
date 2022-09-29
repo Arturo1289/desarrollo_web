@@ -5,61 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-        header {
-            border: solid crimson 1px;
-            text-align: center;
-        }
-    </style>
-
-    <style>
-        div {
-            width: 20%;
-            background-color: gray;
-        }
-    </style>
-
-    <style>
-        li {
-            list-style: none;
-        }
-    </style>
-
-    <style>
-        h2,p {width: 40%;
-           background-color: gray;}
-    </style>
+    <title>Ejemplo 2 con css</title>
+<link rel="stylesheet" href="C:\Dev\desarrollo_web\practica_de_etiquetas\estructura_con_css\css\style.css">
 
 </head>
 
 <body>
-    <header>
+
+    <header style="background-color:#E8F2A1;margin-bottom: 20px;margin-left: 20px;margin-right: 15px;">
         <h1>Titulo del encabezado</h1>
-        <p><strong>Texto del encabezado</strong></p>
+        <p style=margin-top:-22px;"><strong>Texto del encabezado</strong></p>
+    </header>
+    <div style="margin-bottom: 20px;">
+        <nav style="background-color:#F7D1D5;width: 18%;margin-left: 15px;">
+            <ul>
+                <li>
+                    <br> Elemento 1 <br>
+                    <br> Elemento 2 <br>
+                    <br> Elemento 3 <br>
+                    <br> Elemento 4 <br>
+                    <br> Elemento 5 <br>
+                    <br> Elemento 6 <br>
+                </li>
+            </ul>
+        </nav>
 
-        <div>
-            <li style="background-color:#F7D1D5;"><br> elemento 1 <br> <br> Elemento 2 <br> <br> Elemento 3 <br> <br>
-                Elemento 4
-                <br> <br> Elemento 5 <br> <br>
-                Elemento 6
-            </li>
-
-            <h3 style="background-color:#DEDCE6;"><strong>Titulo del aside</strong></h3>
-
+        <article style="background-color:#FFF5CE;width: 50%;margin-left: 20px;">
             <h2>Titulo del articulo 1</h2>
             <p>Texto del articulo 1</p>
             <br>
             <h2>Titulo del articulo 2</h2>
             <p>Texto del articulo 2</p>
+        </article>
 
-        </div>
+        <aside style="background-color:#DEDCE6;width: 50%;margin-left: 20px;margin-right: 15px;">
+            <h3><strong>Titulo del aside</strong></h3>
+            <p>Texto del aside</p>
+        </aside>
+    </div>
 
+    <footer style="background-color:#CEF2FF;margin-left: 20px;margin-right: 17px;">
         <p>Texto de pie de pagina</p>
-
-    </header>
-
+    </footer>
 </body>
 
 </html>
