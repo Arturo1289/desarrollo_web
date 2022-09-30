@@ -1,0 +1,20 @@
+header,
+        article,
+        aside,
+        footer,
+        nav {
+            border-radius: 30px;
+            border: solid #2067CA 1px;
+            text-align: center;
+            font-size: x-large;
+        }
+
+        div {
+            display: flex;
+        }
+        li {
+            list-style: none;
+        }
+        header {
+            padding-left: 30;
+        }
