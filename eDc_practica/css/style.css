@@ -1,5 +1,24 @@
-
-a {
+nav {
+    padding: 1px;
+   
     text-align: right;
-    margin-right: 25px;
+    margin-left: 11px;
+    margin-right: 3px;
+}
+
+h3 {
+    color: #B08F5C;
+}
+
+article {
+    text-align: center;
+}
+
+image {
+    background: fixed;
+}
+
+section{
+    background: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg) 100% / cover no-repeat;
+    height: 338px;
 }
