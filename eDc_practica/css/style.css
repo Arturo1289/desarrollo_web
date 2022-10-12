@@ -1,23 +1,76 @@
 nav {
-    padding: 1px;
     text-align: right;
-    margin-left: 11px;
-    margin-right: 3px;
+    margin-right: 200px;
+    margin-left: 36cm;
+    margin-top: 19px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 17px;
 }
 
 h3 {
     color: #B08F5C;
+    font-size: 30px;
+    margin-bottom: -16px;
 }
 
 article {
     text-align: center;
 }
 
-image {
-    background: fixed;
-}
-
-section{
+section {
     background: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg) 100% / cover no-repeat;
     height: 338px;
 }
+
+img {
+    margin-left: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #456866;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: -19px;
+    color: #646D84;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    color: aliceblue;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #uno {
+    grid-column: 1 / 3;
+    text-align:center;
+  }
+  
+  #dos {
+    grid-column: 2/3;
+    text-align: right;
+  }
+  
+  #tres {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    text-align: center;
+  }
+  
+  #cuatro {
+    grid-column: 3/4;
+    grid-row:4/5;
+    text-align: left;
+  }
