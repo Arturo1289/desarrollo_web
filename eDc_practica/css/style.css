@@ -53,20 +53,17 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
   height: 242px;
-  font-family:Verdana, Tahoma, sans-serif
+  font-family:Verdana, Tahoma, sans-serif;
+  color:white;
 }
 
-.grid-item {
-  color: aliceblue;
-  text-align: left;
-  font-size: 30px;
-}
 
 #uno {
   grid-column: 1 / 4;
   font-size: 40px;
   width: 650px;
   margin-left: 19px;
+  font-weight: 900;
  
 }
 
