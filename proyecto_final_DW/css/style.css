@@ -1,0 +1,39 @@
+header {
+    text-align: center;
+    background-color: darkgreen;
+    color: aliceblue;
+    padding: 9px;
+}
+section {
+    text-align: right;
+    background-color: crimson;
+}
+article {
+    background-color: crimson;
+}
+footer {
+    border-top: solid;
+}
+.img1 {
+    height: 120px;
+}
+.img2 {
+    height: 200px;
+}
+.logo {
+    height: 62px;
+margin-bottom: -27px;
+}
+.login {
+    text-align: right;
+    margin-right: 12px;
+}
+button {
+    border-radius: 30px;
+    border:solid black 2px;
+    background-color: white;
+    font-weight: 700;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 22px;
+}
