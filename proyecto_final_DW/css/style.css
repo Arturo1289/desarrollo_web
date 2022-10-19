@@ -2,82 +2,68 @@ header {
     text-align: center;
     background-color: #016241;
     color: whitesmoke;
-    padding-left: 70px;
-    width: 70%;
-    padding-right: 70px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-left: 140px;
-    margin-top: 30px;
-    font-size: x-large;
-}
-section {
-    text-align: center;
-    background-color: #D40032;
-    color: whitesmoke;
-    width: 70%;
-    margin-left: 140px;
-    margin-top: 30px;
-    font-size: x-large;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 1px;
-}
-article {
-    text-align: center;
-    background-color: #D40032;
-    color: whitesmoke;
     width: 70%;
     margin-left: 140px;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 27px;
-    padding-left: 70px;
-    padding-right: 70px;
+    font-size: 25px;
     padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+section,
+article {
+    display: flex;
+    text-align: center;
+    background-color: #D40032;
+    color: whitesmoke;
+    width: 70%;
+    margin-left: 140px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 35px;
 }
 footer {
     border-top: solid;
-    width: 80.6%;
+    width: 70%;
     margin-left: 140px;
 }
-.img1 {
-    height: 284px;
-    float: left;
-    margin-left: -70px;
-    margin-right: 80px;
-    margin-top: -31px;
+
+body {
+    padding-left: 10%;
 }
+
 .img2 {
-    height: 284px;
-    float: right;
-    margin-left: 70px;
-    margin-right: -40px;
-    margin-top: -35px;
+    width: 48%;
 }
+
 .logo {
     height: 62px;
     margin-bottom: -27px;
 }
+
 .p1 {
     border-radius: 30px;
-    border: solid black 2px;
+    border: solid white 2px;
     background-color: crimson;
     font-weight: 700;
     height: 35px;
     font-size: 15px;
     margin-bottom: 22px;
+    color: white;
 }
+
 .p1:hover {
     border-radius: 30px;
-    border: solid black 2px;
-    background-color: black;
-    color: whitesmoke;
+    border: solid white 2px;
+    background-color: white;
+    color: crimson;
     font-weight: 700;
     height: 35px;
     font-size: 15px;
     margin-bottom: 22px;
 }
+
 button {
     border-radius: 30px;
     border: solid black 2px;
@@ -87,31 +73,34 @@ button {
     font-size: 15px;
     margin-bottom: 22px;
 }
+
 .uno {
     text-decoration: none;
     color: black;
 }
+
 .dos {
     text-decoration: none;
     color: black;
 }
+
 .tres {
     text-decoration: none;
     color: black;
 }
+
 .navega {
-    margin-left: 160px;
+    margin-left: 140px;
     text-align: left;
 }
+
 .login {
     text-align: right;
     margin-top: 13px;
-    margin-left: 580px;
+    margin-left: 730px;
 }
-div {
-    display: flex;
-}
-.but1:hover{
+
+.but1:hover {
     border-radius: 30px;
     border: solid whitesmoke 2px;
     background-color: black;
@@ -120,4 +109,12 @@ div {
     height: 35px;
     font-size: 15px;
     margin-bottom: 22px;
+}
+
+.letras {
+    width: 50%;
+}
+
+.arriva {
+    display: flex;
 }
