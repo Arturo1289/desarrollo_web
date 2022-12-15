@@ -1,6 +1,6 @@
 class Persona:
 
-    def __init__(self,nombre,edad,dni):
+    def __init__(self,nombre="",edad="",dni=""):
         self.__nombre = nombre
         self.__edad = edad
         self.__dni = dni
@@ -28,6 +28,6 @@ class Persona:
     def dni(self):
         return self.__dni
 
-    @nombre.setter
+    @dni.setter
     def dni(self,dni):
         self.__dni = dni
