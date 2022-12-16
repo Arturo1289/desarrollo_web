@@ -1,0 +1,8 @@
+    #Return true
+        #Return false
+from cuenta import cuenta
+from persona import persona
+class cuentaJoven:
+    def __init__(self,titular:persona ,cantidad=0.0,bonificacion=0.0):
+        super().__int__(titular, cantidad)
+        self.__bonificacion = bonificacion
