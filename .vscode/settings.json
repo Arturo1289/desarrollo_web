@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./SU_AnalistaDeDatos_EDC-main/6_programacion_orientada_a_objetos"
+    ]
+}
