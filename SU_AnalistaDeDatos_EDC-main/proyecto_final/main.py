@@ -1,9 +1,6 @@
 import instrucciones
 import juego as jugar
 
-def main():
-    menu_principal()
-
 def menu_principal():
     menu = """
 1. Jugar
@@ -17,5 +14,9 @@ Seleccione: """
         jugar()
     elif eleccion == 2:
         instrucciones()
+
+def main():
+    True
+    menu_principal()
 
 main()
