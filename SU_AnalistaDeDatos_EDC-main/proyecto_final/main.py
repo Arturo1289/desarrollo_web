@@ -4,7 +4,7 @@ import ajustes as ajustes
 import ajustes as prepararArchivo
 
 def main():
-    prepararArchivo()
+    prepararArchivo.prepararArchivo()
     while True:
         menu_principal()
 
@@ -20,10 +20,10 @@ Seleccione: """
     if eleccion <= 0 or eleccion >= 4:
         exit()
     if eleccion == 1:
-        jugar()
+        jugar.jugar()
     elif eleccion == 2:
-        instrucciones()
+        instrucciones.instrucciones()
     elif eleccion == 3:
-        ajustes()
+        ajustes.ajustes()
 
 main()

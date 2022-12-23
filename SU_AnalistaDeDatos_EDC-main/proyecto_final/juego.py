@@ -12,7 +12,7 @@ def jugar():
     global intentos
     intentos = 6
     letrasEscritas = []
-    palabra = obtenerPalabra()
+    palabra = obtenerPalabra.obtenerPalabrasDeGrupo()
     prepararPalabra(palabra)
     while True:
         imprimirAhorcado()
