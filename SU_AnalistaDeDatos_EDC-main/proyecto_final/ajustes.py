@@ -1,3 +1,4 @@
+import os
 palabraSecretaAjustes = "1"
 nombreArchivoGrupos = "grupos.txt"
 
