@@ -25,6 +25,4 @@ def main():
     prepararArchivo()
     while True:
         menu_principal()
-
-
 main()
