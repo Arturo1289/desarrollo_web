@@ -5,7 +5,7 @@ import desarrollo as haGanado
 import desarrollo as imprimirPalabra
 import desarrollo as prepararPalabra
 import desarrollo as imprimirPalabraOriginal
-
+import select_palabra as obtenerPalabra
 
 def jugar():
     global letrasEscritas
