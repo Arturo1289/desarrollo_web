@@ -3,6 +3,12 @@ import juego as jugar
 import ajustes as ajustes
 import ajustes as prepararArchivo
 
+def main():
+    prepararArchivo()
+    while True:
+        menu_principal()
+
+
 def menu_principal():
     menu = """
 1. Jugar
@@ -20,9 +26,4 @@ Seleccione: """
     elif eleccion == 3:
         ajustes()
 
-
-def main():
-    prepararArchivo()
-    while True:
-        menu_principal()
 main()
