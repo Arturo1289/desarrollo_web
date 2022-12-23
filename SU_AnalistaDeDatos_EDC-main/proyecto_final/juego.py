@@ -6,14 +6,19 @@ import desarrollo as imprimirPalabra
 import desarrollo as prepararPalabra
 import desarrollo as imprimirPalabraOriginal
 import ajustes as obtenerPalabra
+import ajustes as grupos
+import ajustes as obtenerGrupos
+import ajustes as palabras
 
 def jugar():
     global letrasEscritas
     global intentos
     intentos = 6
     letrasEscritas = []
-    palabra = obtenerPalabra.obtenerPalabrasDeGrupo()
-    prepararPalabra(palabra)
+    grupos.obtenerGrupos = obtenerGrupos.obtenerGrupos()
+    obtenerGrupos.obtenerGrupos = palabras.obtenerPalabrasDeGrupo(palabras)
+    palabras.palabra = obtenerPalabra.obtenerPalabrasDeGrupo()
+    prepararPalabra(palabras)
     while True:
         imprimirAhorcado()
         dibujarIntentos()
